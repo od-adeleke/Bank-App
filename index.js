@@ -51,9 +51,9 @@ function app() {
           //     alert('Account not found')
           // }
 
-        //   verify bank, use less strict verification to accomodate small letters
+        //   verify bank
 
-          if (bank == funmi.bank) {
+          if (bank === funmi.bank) {
             const verify = prompt(`Please confirm receiver details
                             Name: ${funmi.name}
                             Account Number: ${funmi.accountNumber}
